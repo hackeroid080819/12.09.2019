@@ -13,7 +13,6 @@
                 Toast.makeText(getBaseContext(), "Cannot convert " + st + " to int", Toast.LENGTH_SHORT).show();
             }
 
-
             StringBuilder builder = new StringBuilder();
             builder.append("Username: " + username + "\n");
             builder.append("Updates: " + updates+ "\n");
