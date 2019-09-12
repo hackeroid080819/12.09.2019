@@ -16,6 +16,7 @@
             StringBuilder builder = new StringBuilder();
             builder.append("Username: " + username + "\n");
             builder.append("Updates: " + updates+ "\n");
-            builder.append("Download details: " + getResources().getStringArray(R.array.listArray)[downloadDetialsNumber - 1]);
+            builder.append("Download details: " + getResources().getStringArray(R.array.listArray)
+                        [downloadDetialsNumber - 1]);
             TextView sttv = findViewById(R.id.settingsTV);
             sttv.setText(builder.toString());
